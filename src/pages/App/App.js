@@ -1,12 +1,15 @@
 import './App.css';
+import Header from '../../components/Header/Header';
+import Home from '../../components/Home/Home';
+
 
 export default function App() {
   return (
 
     // BEM
     <div className="app">
-      <h1>Airbnb Clone</h1>
-
+      <Header />
+      <Home />
       {/* Home */}
         {/* Header */}
         
@@ -18,6 +21,7 @@ export default function App() {
         {/* Footer */}
         
       {/* Search Page */}
+        {/* Header */}
     </div>
   );
 }
