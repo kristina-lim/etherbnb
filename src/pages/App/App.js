@@ -1,6 +1,6 @@
 import './App.css';
 
-function App() {
+export default function App() {
   return (
 
     // BEM
@@ -21,5 +21,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
