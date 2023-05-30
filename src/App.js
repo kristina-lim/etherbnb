@@ -2,8 +2,22 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
- 
+
+    // BEM
+    <div className="app">
+      <h1>Airbnb Clone</h1>
+
+      {/* Home */}
+        {/* Header */}
+        
+        {/* Banner */}
+          {/* Search */}
+
+        {/* Cards */}
+        
+        {/* Footer */}
+        
+      {/* Search Page */}
     </div>
   );
 }
