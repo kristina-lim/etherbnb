@@ -1,5 +1,7 @@
 .header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header__icon {
@@ -9,6 +11,12 @@
 }
 
 .header__center {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.header__right {
   display: flex;
   align-items: center;
 }
