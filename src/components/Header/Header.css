@@ -2,6 +2,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* this helps with keeping the nav bar stay on top and stick when scrolling down */
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  width: 100%;
 }
 
 .header__icon {
