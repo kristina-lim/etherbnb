@@ -26,6 +26,11 @@
   border-radius: 999px;
 }
 
+.header__center > input {
+  border: none;
+  width: 250px;
+}
+
 .header__right {
   display: flex;
   align-items: center;
