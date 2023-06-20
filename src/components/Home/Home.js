@@ -4,7 +4,7 @@ import Banner from '../Banner/Banner';
 
 export default function Home() {
   return (
-    <div className="home">
+    <div className='home'>
       <Banner />
     </div>
   )

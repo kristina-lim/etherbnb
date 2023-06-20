@@ -7,7 +7,7 @@ export default function App() {
   return (
 
     // BEM
-    <div className="app">
+    <div className='app'>
       <Header />
       <Home />
       {/* Home */}
