@@ -3,3 +3,13 @@
   position: relative;
   background: url("https://i.imgur.com/TPr9JqX.jpg") center center;
 }
+
+.banner__info {
+  background-color: black;
+  color: white;
+  padding-top: 25vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  width: 300px;
+}
