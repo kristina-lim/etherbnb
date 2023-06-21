@@ -13,3 +13,11 @@
   padding-bottom: 10px;
   width: 300px;
 }
+
+.banner__info > button {
+  background-color: #ff7779;
+  color: white;
+  /* To get rid of all caps, use inherit 
+    to get normal casing */
+  text-transform: inherit;
+}
