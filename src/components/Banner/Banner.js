@@ -5,6 +5,14 @@ import { Button } from '@mui/material';
 export default function Banner() {
   return (
     <div className='banner'>
+      <div className='banner__search'>
+        <Button 
+          className='banner__searchButton'
+          variant='outlined'
+        >
+          Search Dates
+        </Button>
+      </div>
       <div className='banner__info'>
         <h1>
           Get out and stretch your imagination
