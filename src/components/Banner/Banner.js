@@ -7,9 +7,9 @@ export default function Banner() {
   return (
     <div className='banner'>
       <div className='banner__search'>
-        {showSearch && <h1>SHOW DATE PICKER</h1>}
+        {showSearch && <Search />}
         <Button 
-          onClick ={() => setShowSearch(!showSearch)}
+          onClick={() => setShowSearch(!showSearch)}
           className='banner__searchButton'
           variant='outlined'
         >
