@@ -9,6 +9,7 @@ export default function Banner() {
       <div className='banner__search'>
         {showSearch && <h1>SHOW DATE PICKER</h1>}
         <Button 
+          onClick ={() => setShowSearch(!showSearch)}
           className='banner__searchButton'
           variant='outlined'
         >
