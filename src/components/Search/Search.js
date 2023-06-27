@@ -11,6 +11,12 @@ import 'react-date-range/dist/theme/default.css';
 export default function Search() {
   const [startDate, setStartDate] = useState(new Date());
   const [endDate, setEndDate] = useState(new Date());
+
+  const selectionRange = {
+    startDate: startDate,
+    endDate: endDate,
+    key: 'selection',
+  };
   
   return (
     <div className='search'>
