@@ -16,3 +16,18 @@
   left: 0;
   top: 340px;
 }
+
+.search > input {
+  width: 539px;
+  padding: 20px;
+  position: absolute;
+  left: 0;
+  height: 30px;
+  top: 380px;
+  border: none;
+}
+
+/* Get rid of outline */
+.search > input:focus {
+  outline-width: 0;
+}
