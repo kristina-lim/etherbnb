@@ -5,8 +5,8 @@ import { DateRangePicker } from 'react-date-range';
 import 'react-date-range/dist/styles.css';
 // theme css file
 import 'react-date-range/dist/theme/default.css';
-import { DateRange } from '@mui/icons-material';
-
+import { Button } from '@mui/material';
+import PeopleIcon from '@mui/icons-material/People';
 
 // Date picker component
 export default function Search() {
@@ -30,6 +30,18 @@ export default function Search() {
         ranges={[selectionRange]} 
         onChange={handleSelect} 
       />
+      <h2>
+        Number of guests
+        <PeopleIcon />
+      </h2>
+      <input
+        min={0}
+        defaultValue={2}
+        type='number'
+      />
+      <Button>
+        Search Airbnb
+      </Button>
     </div>
   )
 }
