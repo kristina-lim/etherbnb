@@ -40,7 +40,7 @@ export default function Search() {
         type='number'
       />
       <Button>
-        Search Airbnb
+        Search Etherbnb
       </Button>
     </div>
   )
