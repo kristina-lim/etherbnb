@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Search.css';
 import { DateRangePicker } from 'react-date-range';
 // Main style file
 import 'react-date-range/dist/styles.css';
 // theme css file
 import 'react-date-range/dist/theme/default.css';
+import { DateRange } from '@mui/icons-material';
 
 
 // Date picker component
@@ -17,10 +18,18 @@ export default function Search() {
     endDate: endDate,
     key: 'selection',
   };
-  
+
+  function handleSelect(ranges) {
+    setStartDate(ranges.selection.startDate);
+    setEndDate(ranges.selection.endDate);
+  }
+
   return (
     <div className='search'>
-      
+      <DateRangePicker 
+        ranges={[selectionRange]} 
+        onChange={handleSelect} 
+      />
     </div>
   )
 }

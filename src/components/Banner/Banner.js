@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Banner.css';
 import { Button } from '@mui/material';
+import Search from '../Search/Search';
 
 export default function Banner() {
   const [showSearch, setShowSearch] = useState(false);
