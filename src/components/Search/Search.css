@@ -31,3 +31,18 @@
 .search > input:focus {
   outline-width: 0;
 }
+
+.search > button {
+  position: absolute;
+  left: 0;
+  top: 450px;
+  text-transform: inherit !important;
+  background-color: rgb(77, 123, 193);
+  color: white;
+  width: 579px;
+}
+
+.search > button:hover {
+  background-color: white;
+  color: rgb(77, 123, 193);
+}
