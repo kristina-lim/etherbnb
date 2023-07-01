@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import Banner from '../Banner/Banner';
+import Banner from '../../components/Banner/Banner';
 
 export default function Home() {
   return (
