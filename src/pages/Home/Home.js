@@ -8,14 +8,38 @@ export default function Home() {
     <div className='home'>
       <Banner />
       <div className='home__section'>
-        <Card />
-        <Card />
-        <Card />
+        <Card 
+          src=""
+          title=""
+          description=""
+        />
+        <Card 
+          src=""
+          title=""
+          description=""
+        />
+        <Card 
+          src=""
+          title=""
+          description=""
+        />
       </div>
       <div className='home__section'>
-        <Card />
-        <Card />
-        <Card />
+        <Card 
+          src=""
+          title=""
+          description=""
+        />
+        <Card 
+          src=""
+          title=""
+          description=""
+        />
+        <Card 
+          src=""
+          title=""
+          description=""
+        />
       </div>
     </div>
   )
