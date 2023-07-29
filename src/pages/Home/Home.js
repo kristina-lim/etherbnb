@@ -10,18 +10,18 @@ export default function Home() {
       <div className='home__section'>
         <Card 
           src=""
-          title=""
-          description=""
+          title="Online Experiences"
+          description="Unique activities friends or family can do together, led by a world of hosts."
         />
         <Card 
           src=""
-          title=""
-          description=""
+          title="Unique Stays"
+          description="Spaces that are more than just a place to sleep."
         />
         <Card 
           src=""
-          title=""
-          description=""
+          title="Entire Homes"
+          description="Comfortable private places, with room for friends or family."
         />
       </div>
       <div className='home__section'>
