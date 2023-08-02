@@ -25,21 +25,9 @@ export default function Home() {
         />
       </div>
       <div className='home__section'>
-        <Card 
-          src=""
-          title=""
-          description=""
-        />
-        <Card 
-          src=""
-          title=""
-          description=""
-        />
-        <Card 
-          src=""
-          title=""
-          description=""
-        />
+        <Card />
+        <Card />
+        <Card />
       </div>
     </div>
   )
