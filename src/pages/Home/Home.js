@@ -9,19 +9,19 @@ export default function Home() {
       <Banner />
       <div className='home__section'>
         <Card 
-          src="https://i.imgur.com/f01vLuW.jpg"
-          title="Online Experiences"
-          description="Unique activities friends or family can do together, led by a world of hosts."
+          src='https://i.imgur.com/f01vLuW.jpg'
+          title='Online Experiences'
+          description='Unique activities friends or family can do together, led by a world of hosts.'
         />
         <Card 
-          src="https://i.imgur.com/lBkv49n.jpg"
-          title="Unique Stays"
-          description="A space that is more than just a place to sleep."
+          src='https://i.imgur.com/lBkv49n.jpg'
+          title='Unique Stays'
+          description='A space that is more than just a place to sleep.'
         />
         <Card 
-          src="https://i.imgur.com/OerKnPt.jpg"
-          title="Entire Homes"
-          description="Comfortable private places, with room for friends or family."
+          src='https://i.imgur.com/OerKnPt.jpg'
+          title='Entire Homes'
+          description='Comfortable private places, with room for friends or family.'
         />
       </div>
       <div className='home__section'>
