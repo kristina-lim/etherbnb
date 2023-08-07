@@ -14,9 +14,9 @@ export default function Home() {
           description="Unique activities friends or family can do together, led by a world of hosts."
         />
         <Card 
-          src="https://i.imgur.com/irGDO6Q.jpg"
+          src="https://i.imgur.com/lBkv49n.jpg"
           title="Unique Stays"
-          description="Spaces that are more than just a place to sleep."
+          description="A space that is more than just a place to sleep."
         />
         <Card 
           src="https://i.imgur.com/OerKnPt.jpg"
