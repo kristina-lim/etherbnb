@@ -10,9 +10,7 @@ export default function App() {
     <div className='app'>
       <Header />
       <Home />
-      {/* Home */}
-        {/* Header */}
-        
+      <Footer />
         {/* Banner */}
           {/* Search */}
 
