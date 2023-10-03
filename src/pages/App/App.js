@@ -9,9 +9,10 @@ export default function App() {
 
     // BEM
     <div className='app'>
-      <Header />
-      <Home />
-      <Footer />
+      <Router>
+        <Header />
+        <Home />
+        <Footer />
         {/* Banner */}
           {/* Search */}
 
@@ -21,6 +22,7 @@ export default function App() {
         
       {/* Search Page */}
         {/* Header */}
+      </ Router>
     </div>
   );
 }
